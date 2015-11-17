@@ -26,7 +26,7 @@ Para instalação do Feed-Reader será necessário apenas **PHP >= 5.5.9** e **C
 #### Produção
 Para execução do Feed-Reader basta rodas os seguintes comandos no terminal:
 
-    composer update
+    composer install
     php artisan serve
 
 O Feed-Reader através da url: http://localhost:8000
