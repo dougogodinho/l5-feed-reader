@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+body {
+  min-height: 100vh;
+  font-family: "Open Sans";
+  font-size: 14px; }
+  body .container {
+    margin: 100px auto 0;
+    width: 500px;
+    height: 180px;
+    position: relative;
+    box-shadow: 0px 0px 230px rgba(128, 128, 128, 0.42);
+    padding: 30px 70px;
+    border-radius: 50px; }
+    body .container .main-title {
+      font-size: 20px;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 1px solid lightgrey; }
+    body .container .feed {
+      display: block;
+      padding: 10px;
+      color: #424242;
+      text-decoration: none; }
+      body .container .feed:hover {
+        color: #000000; }
+      body .container .feed .title {
+        font-weight: 600; }
+      body .container .feed .date {
+        font-size: 12px;
+        float: left;
+        margin-right: 20px; }
+      body .container .feed .category {
+        font-size: 12px;
+        float: left;
+        font-weight: 600; }
+      body .container .feed .description {
+        clear: both;
+        text-align: justify;
+        margin-top: 5px; }
+        body .container .feed .description img {
+          float: left;
+          margin: 4px 10px 0px 0px;
+          width: 72px; }
+    body .container .next, body .container .prev {
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      top: 115px;
+      border-top: 2px solid lightgrey;
+      border-left: 2px solid lightgrey; }
+      body .container .next:hover, body .container .prev:hover {
+        box-shadow: -2px -2px 1px gray;
+        cursor: pointer; }
+    body .container .prev {
+      left: 30px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+    body .container .next {
+      right: 30px;
+      -webkit-transform: rotate(135deg);
+      transform: rotate(135deg); }
+
+/*# sourceMappingURL=app.css.map */
